@@ -209,103 +209,101 @@ li a:hover{
      cursor: pointer;
   }
 
-  /*end navbar*/
+  /***********************************************end navbar********************************/
   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*content*/
-  /* Hero Section */
+ /*content*/
+ /* Hero Section */
 .content {
   color: #fff;
   text-align: center;
-  position: relative;
-  top: 40%;
-  left: 42.5%;
-  transform: translate(-50%, -50%);
-  width: 90%; /* Ensure content doesn't overflow on small screens */
-  max-width: 1200px; /* Limit width on larger screens */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 77vh; /* Pushes it down from the navbar */
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto; /* Ensures it remains centered */
+  padding-top: 80px; /* Adjust this to control distance from navbar */
 }
 
+/* Ensuring the main container takes full height */
+.mainpage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers the hero section in the page */
+  align-items: center;
+}
+
+/* Text Styling */
 .txt {
-  font-size: 48px; /* Default font size for mobile */
+  font-size: 48px;
   font-weight: bold;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  line-height: 1.2; /* Better line height for readability */
-  margin-bottom: 20px; /* Space between heading and paragraph */
+  line-height: 1.2;
+  margin-bottom: 20px;
 }
 
 .content .txtclr {
   color: #42c0ea;
-  font-size: inherit; /* Inherit font size from .txt */
-  font-weight: inherit; /* Inherit font weight from .txt */
+  font-size: inherit;
+  font-weight: inherit;
 }
 
 .content p {
-  font-size: 18px; /* Default font size for mobile */
+  font-size: 18px;
   font-weight: 500;
   font-family: Helvetica, sans-serif;
-  line-height: 1.5; /* Better line height for readability */
-  padding-top: 20px; /* Space between heading and paragraph */
+  line-height: 1.5;
+  padding-top: 20px;
 }
 
 /* Responsive Adjustments */
 @media (min-width: 576px) {
   .txt {
-    font-size: 56px; /* Slightly larger font size for tablets */
+    font-size: 56px;
   }
 
   .content p {
-    font-size: 20px; /* Slightly larger font size for tablets */
+    font-size: 20px;
   }
 }
 
 @media (min-width: 768px) {
   .txt {
-    font-size: 64px; /* Larger font size for small desktops */
+    font-size: 64px;
   }
 
   .content p {
-    font-size: 22px; /* Larger font size for small desktops */
+    font-size: 22px;
   }
 }
 
 @media (min-width: 992px) {
   .txt {
-    font-size: 72px; /* Largest font size for desktops */
+    font-size: 72px;
   }
 
   .content p {
-    font-size: 25px; /* Largest font size for desktops */
+    font-size: 25px;
   }
 }
 
 @media (min-width: 1200px) {
   .txt {
-    font-size: 80px; /* Extra large font size for large desktops */
+    font-size: 80px;
   }
 
   .content p {
-    font-size: 28px; /* Extra large font size for large desktops */
+    font-size: 28px;
   }
 }
+/***********************************************end of hero section******************************/
 
-
+/*about section*/
 .about .txt{
   color: #fff;
   font-size: 55px;
@@ -323,7 +321,10 @@ li a:hover{
   
   }
 
-/*services*/
+
+  /*******************************************************end of about section*********************/
+
+/* section services*/
 
 .services {
   padding-top: 125px;
@@ -386,10 +387,10 @@ height: 520px; */
  
 }
 
-/*end servecies*/
+/***************************************end servecies***************************************/
   
 
-  /* Our Team */
+  /*section Our Team */
 
   .teamtitle .txt{
     color: #fff;
@@ -424,20 +425,7 @@ height: 520px; */
   font-size: 15px;
 }
 
-/*end our team*/
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*******************************************************end our team******************************/
 
 
 /*get in touch section*/
@@ -556,7 +544,7 @@ margin-bottom: 40px;
   transform: scale(1.05);
   cursor: pointer;
 }
-/*end get in touch*/
+/************************************************end get in touch*********************************/
 
 /* Footer Section */
 .footer .horizontalLine {
@@ -576,20 +564,7 @@ margin-bottom: 40px;
   margin-bottom: 10px;
 }
 
-/*end footer section*/
-
-
-
-
-
-
-
-
-
-
-
-
-
+/**********************************************end footer section*********************************/
 
 
 /* Toggle Button */
@@ -624,6 +599,7 @@ margin-bottom: 40px;
 }
 
 /* Mobile navbar Menu */
+
 @media only screen and (max-width: 767px) {
   .toggle-btn {
     display: flex;
@@ -662,10 +638,10 @@ margin-bottom: 40px;
   .nav-menu a {
     color: #fff;
     text-decoration: none;
-    font-size: 22px; /* Larger font size for tablets */
-    font-weight: 400; /* Medium font weight */
-    padding: 10px 20px; /* Add padding for better click area */
-    border-radius: 5px; /* Rounded corners */
+    font-size: 22px; 
+    font-weight: 400; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
     transition: background-color 0.3s ease, color 0.3s ease;
   }
   
@@ -680,8 +656,8 @@ margin-bottom: 40px;
     transition: background-color 0.3s ease, transform 0.3s ease;
   }
   .nav-menu .btnNav:hover {
-    background-color: #0077a3; /* Darker shade on hover */
-    transform: scale(1.05); /* Slight scale effect on hover */
+    background-color: #0077a3; 
+    transform: scale(1.05); 
   }
   .logo {
     margin-top: 20px;
@@ -788,23 +764,17 @@ margin-bottom: 40px;
   }
 }
 
+/******************************************************end of responsive navbar*****************************/
 
-
-
-
-
-
-
-
-
-  /* Contact Section */
+  
 /* get in touch Mobile Responsive  */
+
 @media (max-width: 768px) {
   .contact .title h2 {
-    text-align: left; /* Align text to the left on mobile */
-    padding-left: 0;  /* Remove left padding */
+    text-align: left; 
+    padding-left: 0;  
     padding-left: 11px; 
-    font-size: 50px;/* Add left padding for spacing */
+    font-size: 50px;
   }
   .contact .title span {
     
@@ -814,15 +784,15 @@ margin-bottom: 40px;
   .contact ,
   .company,
   .socialMedia {
-    text-align: left; /* Align all sections to the left */
+    text-align: left; 
     padding-left: 0;
-    padding-left: 11px; /* Add spacing from the left */
+    padding-left: 11px; 
     margin-top: 21px;
   }
   .footerLogo{
-    text-align: left; /* Align all sections to the left */
+    text-align: left; 
     padding-left: 0;
-    padding-left: 11px; /* Add spacing from the left */
+    padding-left: 11px; 
     margin-top: 26px;
   }
   /* Adjust Message Button for Mobile */
@@ -830,8 +800,8 @@ margin-bottom: 40px;
     .message {
       display: flex;
       left: 60%;
-      text-align: right; /* Move it to the right */
-      padding-right: 20px; /* Add space from the right */
+      text-align: right; 
+      padding-right: 20px; 
       width: 100%;
     }
  
@@ -869,7 +839,7 @@ margin-bottom: 40px;
   
   /* Second row: Social Media and Message Button */
   .keepInTouch .socialMedia {
-    flex: 1 1 50%; /* Takes half width */
+    flex: 1 1 50%; 
     margin-top: 20px;
     margin-left: 185px;
 
@@ -889,6 +859,9 @@ margin-bottom: 40px;
     margin: 20px auto;
   }
 }
+
+/**************************************end of Responsive get in touch*******************************/
+
 
 /* @media (max-width: 768px) {
   .message {
