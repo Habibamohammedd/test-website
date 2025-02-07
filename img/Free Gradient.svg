@@ -1,0 +1,19 @@
+<svg width="72" height="71" viewBox="0 0 72 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Free Gradient">
+<g id="Union" filter="url(#filter0_d_777_40)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M36 63C31.2318 63 26.7017 61.9717 22.6309 60.1272L6.69246 62.964C5.88293 63.108 5.05718 62.8128 4.53031 62.1909C4.00344 61.569 3.85674 60.7162 4.14617 59.9584L8.72137 47.9758C5.72696 43.1814 4.00003 37.5362 4.00003 31.5C4.00003 14.103 18.3269 0 36 0C53.6731 0 68 14.103 68 31.5C68 48.897 53.6731 63 36 63Z" fill="white"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_777_40" x="0" y="0" width="72" height="71" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_777_40"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_777_40" result="shape"/>
+</filter>
+</defs>
+</svg>

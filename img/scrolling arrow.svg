@@ -1,0 +1,12 @@
+<svg width="74" height="74" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="scrolling arrow mobile" opacity="0.35">
+<rect width="74" height="74" rx="11" fill="url(#paint0_linear_443_1283)"/>
+<path id="Vector" d="M21 45L37.5 29L54 45" stroke="#05101C" stroke-width="10.4167" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_443_1283" x1="37" y1="0" x2="37" y2="48" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#AAD7FD"/>
+</linearGradient>
+</defs>
+</svg>
