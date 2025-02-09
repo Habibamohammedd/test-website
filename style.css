@@ -1,5 +1,7 @@
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
+ 
 }
 *{
   margin :0;
@@ -17,6 +19,7 @@ body
 {
   background: linear-gradient( to top right ,#05101c,#05101c,#081a2e,#023e52) ;
   overflow-x: hidden;
+ 
 } 
 #stars {
   width: 1px;
@@ -551,7 +554,7 @@ margin-bottom: 40px;
   height: 2px;
   background-color: rgba(255, 255, 255, 0.13);
   width: 100%;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .footer p {
@@ -809,7 +812,10 @@ margin-bottom: 40px;
   
   .about .txt ,.about .txtclr{
     font-size: 45px;
-    margin-bottom: 50px !important;
+    /* margin-top: 50px !important; */
+  }
+  .about h2{
+    margin-bottom: 12px;
   }
 
   .teamtitle .txt ,.teamtitle .txtclr{
