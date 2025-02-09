@@ -671,7 +671,9 @@ margin-bottom: 40px;
   body.no-scroll {
     overflow: hidden;
   }
-
+.navbar{
+  margin-bottom: 15px;
+}
   .hero h1{
     margin-bottom: 20px;
   }
