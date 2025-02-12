@@ -326,6 +326,11 @@ li a:hover{
     margin-bottom: 50px !important;
     padding-bottom: 90px !important;
   }
+
+  .navbar{
+    margin-bottom: 15px;
+    padding-bottom: 3px;
+  }
   
 }
 /***********************************************end of hero section******************************/
@@ -707,9 +712,9 @@ margin-bottom: 40px;
     position: fixed; 
     width: 100vw;
   }
-.navbar{
+/* .navbar{
   margin-bottom: 15px;
-}
+} */
   /* .hero h1{
     margin-bottom: 20px;
   }
