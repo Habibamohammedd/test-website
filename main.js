@@ -1,3 +1,4 @@
+
 // Select toggle button and navigation menu
 const toggleBtn = document.getElementById('toggle-btn');
 const navMenu = document.getElementById('nav-menu');
@@ -40,3 +41,28 @@ document.addEventListener("keydown", function(event) {
       event.preventDefault();
   }
 });
+
+
+
+navLinks.forEach(link => {
+  link.addEventListener('click', (event) => {
+    const sectionId = link.getAttribute('href');
+
+    if (sectionId.startsWith("#")) {  // Only prevent default for internal links
+      event.preventDefault();
+      const section = document.getElementById(sectionId.substring(1));
+
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+
+        // Hide the menu after clicking
+        navMenu.classList.remove('show');
+        toggleBtn.classList.remove('open'); 
+        body.classList.remove('no-scroll');
+      }
+    }
+  });
+});
+
+
+
