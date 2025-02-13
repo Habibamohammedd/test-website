@@ -24,6 +24,9 @@ body
  
 } 
 
+/****************************stars***************************************************/
+
+/* 
 #stars {
   width: 1px;
   height: 1px;
@@ -134,7 +137,21 @@ box-shadow: 387px 1878px #FFF,760px 1564px #FFF,1487px 999px #FFF,948px 1828px #
   to {
       transform: translateY(-2000px);
   }
+} */
+
+#space {
+  position: fixed; /* Make it cover the entire screen */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  z-index: -1; /* Send it to the background */
 }
+
+
+/****************************************end of stars******************************/
+
 
 .mainpage {
   height: 100vh; 
