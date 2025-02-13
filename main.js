@@ -121,9 +121,9 @@ Star.prototype.draw = function () {
   }
   context.closePath();
 
-  context.fillStyle = `rgba(255, 255, 200, ${this.opacity})`;
+  context.fillStyle = `rgba(255, 255, 255, ${this.opacity})`; // White stars
   context.shadowBlur = 5;
-  context.shadowColor = '#ffffff';
+  context.shadowColor = '#ffffff'; // White glow effect
   context.fill();
 
   context.restore();
